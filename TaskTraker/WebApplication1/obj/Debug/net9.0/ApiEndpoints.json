@@ -1,0 +1,49 @@
+[
+  {
+    "ContainingType": "TaskTracker.WebAPI.Controllers.TaskTrackerController",
+    "Method": "GetTaskTraker",
+    "RelativePath": "TaskTracker",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TaskTracker.WebAPI.Models.TaskItem, TaskTracker.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "TaskTracker"
+  },
+  {
+    "ContainingType": "TaskTracker.WebAPI.Controllers.TaskTrackerController",
+    "Method": "Post",
+    "RelativePath": "TaskTracker",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "task",
+        "Type": "TaskTracker.WebAPI.Models.CreateTaskRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TaskTracker.WebAPI.Models.TaskItem",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
